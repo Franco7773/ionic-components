@@ -1,0 +1,14 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-title>{{ nombre }} - {{ pais }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button color="dark" expand="full" (click)="salirSin()">
+    Salír sin argumentos
+  </ion-button>
+  <ion-button color="success" expand="full" (click)="salirCon()">
+    Salír con argumentos
+  </ion-button>
+</ion-content>
